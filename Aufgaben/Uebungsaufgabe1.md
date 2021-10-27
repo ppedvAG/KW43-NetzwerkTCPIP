@@ -1,10 +1,10 @@
 # Übungsaufgabe1
 
-Berechnen sie das folgende Subnet.
-Gegeben: 
+## Berechnen sie das folgende Subnet.
+** Gegeben: **
 192.168.10.106 / 29
 
-Gesucht:
+** Gesucht: **
 NetzID
 erste verwendbare Adresse
 letzte verwendbare Adresse
