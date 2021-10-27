@@ -5,3 +5,4 @@ Kursbegleitende Informationen zum NetzwerkTCPIP Kurs der ppedv AG
 - ISO / OSI Layer
 - Netzwerkgeräte
 - Topologien
+- IP
