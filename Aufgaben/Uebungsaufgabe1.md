@@ -11,4 +11,4 @@ letzte verwendbare Adresse
 BroadCast Adresse
 
 Loesung:
-Notizen/Tag1-Uebung1-Loesung.png
+[Loesung zu Uebungsaufgabe1(https://github.com/ppedvAG/KW43-NetzwerkTCPIP/blob/main/Notizen/Tag1-IP-Uebung1-Loesung.png "Loesung")]
