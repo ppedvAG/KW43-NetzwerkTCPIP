@@ -8,3 +8,4 @@ Kursbegleitende Informationen zum NetzwerkTCPIP Kurs der ppedv AG
 - IP
 - IPv6
 - VPN
+- DNS
