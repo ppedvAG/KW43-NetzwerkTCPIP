@@ -6,3 +6,5 @@ Kursbegleitende Informationen zum NetzwerkTCPIP Kurs der ppedv AG
 - Netzwerkgeräte
 - Topologien
 - IP
+- IPv6
+- VPN
