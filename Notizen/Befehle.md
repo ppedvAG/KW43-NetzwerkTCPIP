@@ -11,7 +11,7 @@ Dieser Befehl kann verwendet werden um die Registration des DNS Clients bei sein
 ipconfig
 ```
 
-dient zum Abfragen der IP Konfiguration aller Schnittstellen
+Dient zum Abfragen der IP Konfiguration aller Schnittstellen
 
 ---
 
@@ -19,7 +19,15 @@ dient zum Abfragen der IP Konfiguration aller Schnittstellen
 ipconfig /all
 ```
 
-zeigt einem alle relevanten Konfigurationen zu allen Netzwerkadaptern an
+Zeigt einem alle relevanten Konfigurationen zu allen Netzwerkadaptern an
+
+---
+
+```cmd
+ipconfig /displaydns
+```
+
+Hiermit kann man sich den Inhalt des DNS Client Caches ausgeben lassen
 
 ---
 
@@ -34,13 +42,6 @@ Mit nslookup können in der Kommandozeile (cmd) DNS Abfragen manuell getätigt w
 
 ---
 
-```cmd
-ipconfig /displaydns
-```
-
-Hiermit kann man sich den Inhalt des DNS Client Caches ausgeben lassen
-
----
 
 ```powershell
 Resolve-DnsName -Name intranet.ppedv.test
@@ -70,9 +71,16 @@ Mithilfe dieses cmdlet lassen sich andere Powershell cmdlet visualisieren wie in
 arp -a
 ```
 
-Hiermit kann man sich in einer Kommandozeile den ARP (Adress Resolution Protokoll) Cache anzeigen lassen 
+Hiermit kann man sich in einer Kommandozeile den ARP (Adress Resolution Protokoll) Cache anzeigen lassen. Und somit die MAC Adressen mit denen das System in letzter Zeit Kontakt hatte 
 
 ---
 
+```powershell
+Test-NetConnection -Computername 8.8.8.8 -Port 53
+```
+
+Mit diesem PowerShell cmdlet lassen sich TCP Ports testen. In diesem Beispiel wird getestet ob auf der Ziel IP Adresse (8.8.8.8) der TCP Port 53 geöffnet ist.
+
+---
 
 
