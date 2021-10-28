@@ -57,3 +57,12 @@ Get-DnsclientCache
 Mithilfe dieses PowerShell cmdlet lässt sich der Inhalt des DNS Client Caches anzeigen
 
 ---
+
+```powershell
+Show-Command Resolve-DnsName
+```
+
+Mithilfe dieses cmdlet lassen sich andere Powershell cmdlet visualisieren wie in diesem Beispiel mit Resolve-DnsName
+
+---
+
